@@ -39,15 +39,13 @@ nav li {
 .main-container-top {
     background: rgba(255, 144, 14, 0.1);
     position: absolute;
-    height: 1200px;
+    height: 1150px;
     width: 100%;
     left: 0px;
     top: 0px;
 }
 
-.feature-container {
-    margin-top: 550px;
-}
+
 .btn-top{
     width: 150px;
     height: 40px;
@@ -56,19 +54,17 @@ nav li {
     border-radius: 5px;
     border: none;
 }
-.banner{
-    position: relative;
-    width: 100%;
-    height: 700px;
-    top: 440px;
-    background: url(images/banner.png);
-    background-repeat: no-repeat;
-    border-radius: 8px;
-    justify-content: center;
+.banner img{
+    margin-top: 50px;
+    width: 90vw;
 }
 
 /* our feature */
-
+.feature{
+    margin-top: 1200px;
+    display: flex;
+    justify-content: center;
+}
 .feature-img{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -78,12 +74,10 @@ nav li {
     position: relative;
     display: flex;
     align-items: center;
-    left: 50px;
 }
 .feature-text{
-    position: absolute;
     text-align: left;
-    left: 750px;    
+    margin-left: 80px;
 }
 #feature-text-h3{
     font-weight: 500;
@@ -204,4 +198,63 @@ nav li {
 }
 .end-content{
     position: absolute;
+}
+
+
+@media screen and (max-width: 576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .experience-container{
+        flex-direction: column-reverse;
+    }
+    /* achieve */
+    .achieve{
+        flex-direction: column;
+    }
+    /* sponser */
+    .sponser-img{
+        flex-direction: column;
+    }
+    .architect-pic{
+        width: 300px;
+        height: 400px;
+        margin-left: 40px;
+    }
+    #experience-h3-hr{
+        border-left: 5px solid #FF900E;
+        padding-left: 10px;
+        font-size: 30px;
+        margin-top: 60px;
+    }
+    .Experience-h3-para{
+        margin-left: 40px;
+    }
+    .experience-container{
+        margin-left: -12px;
+    }
+    .btn-last-content{
+        left: 28%;
+        top: 350px;
+    }
+    .btn-3rd{
+        width: 120px;
+        height: 80px;
+    }
+    p{
+        font-size: 10px;
+    }
+    #nav-bar-h3{
+        font-size: 20px;
+    }
+    .nav-item{
+        align-items: stretch;
+    }
 }
