@@ -49,7 +49,7 @@ nav li {
 }
 
 .feature-container {
-    margin-top: 1400px;
+    margin-top: 550px;
 }
 .btn-top{
     width: 150px;
@@ -67,4 +67,57 @@ nav li {
     background: url(images/banner.png);
     background-repeat: no-repeat;
     border-radius: 8px;
+}
+
+/* our feature */
+
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.feature-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 50px;
+}
+.feature-text{
+    position: absolute;
+    text-align: left;
+    left: 750px;    
+}
+#feature-text-h3{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 0px; 
+}
+.btn-second{
+    color: white;
+    width: 150px;
+    height: 40px;
+    background: #FF900E;
+    border: none;
+    border-radius: 5px;
+}
+/* Experience */
+#experience-h3-hr{
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+    font-size: 45px;
+}
+.box{
+    position: relative;
+    left: 20px;
+    width: 410px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;   
+}
+.box h3{
+    padding: 15px 0px 0px 15px;
+}
+.box p{
+    padding: 0px 0px 15px 15px;
 }
