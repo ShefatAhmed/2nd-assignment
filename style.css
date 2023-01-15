@@ -6,6 +6,9 @@ p {
     font-size: 12px;
     color: #727272;
 }
+button{
+    cursor: pointer;
+}
 
 /* nav */
 .nav-bar {
@@ -158,6 +161,11 @@ nav li {
 }
 .achieve-box img{
     margin-top: 40px;
+}
+.achieve-box:hover{
+    background-color: #ff8f0e6c;
+    transition: all 1.5s ease;
+    cursor: pointer;
 }
 .achieve{
     display: flex;
