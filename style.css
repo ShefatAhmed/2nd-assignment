@@ -202,11 +202,24 @@ nav li {
 
 
 @media screen and (max-width: 576px) {
+    .main-container-top{
+        height: 710px;
+    }
     .nav-bar{
         flex-direction: column;
     }
+    #contact{
+        text-align: center;
+    }
+    .feature{
+        margin-top: 700px;
+    }
+    .feature-text{
+        margin-left: 30px;
+    }
     .feature-img{
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
     }
     .feature-container{
         flex-direction: column-reverse;
@@ -215,9 +228,12 @@ nav li {
     .experience-container{
         flex-direction: column-reverse;
     }
-    /* achieve */
+    .facts{
+        margin-left: 20px;
+    }
     .achieve{
         flex-direction: column;
+        align-items: center;
     }
     /* sponser */
     .sponser-img{
@@ -226,7 +242,7 @@ nav li {
     .architect-pic{
         width: 300px;
         height: 400px;
-        margin-left: 40px;
+        margin-left: 47px;
     }
     #experience-h3-hr{
         border-left: 5px solid #FF900E;
@@ -235,13 +251,13 @@ nav li {
         margin-top: 60px;
     }
     .Experience-h3-para{
-        margin-left: 40px;
+        margin-left: 24px;
     }
     .experience-container{
         margin-left: -12px;
     }
     .btn-last-content{
-        left: 28%;
+        left: 33%;
         top: 350px;
     }
     .btn-3rd{
@@ -255,6 +271,17 @@ nav li {
         font-size: 20px;
     }
     .nav-item{
-        align-items: stretch;
+        align-items: center;
+        padding: 0px;
+    }
+    .box{
+        width: 340px;
+    }
+    .sponser-img{
+        width: 70vw;
+        margin-left: 48px;
+    }
+    .end-background{
+        width: 90vw;
     }
 }
