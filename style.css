@@ -12,7 +12,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 120px 50px 120px ;
+    margin: 0px 120px 50px 120px ;
 }
 
 .nav-item {
@@ -35,9 +35,6 @@ nav li {
 #top-title-h2{
     font-size: 50px;
     margin-bottom: 0px;
-}
-.main-container{
-   
 }
 .main-container-top {
     background: rgba(255, 144, 14, 0.1);
@@ -120,4 +117,27 @@ nav li {
 }
 .box p{
     padding: 0px 0px 15px 15px;
+}
+.experience-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.architect-pic{
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+}
+.btn-last-content{
+    position: absolute;
+    top: 2700px;
+    left: 570px;
+}
+.btn-3rd{
+    width: 150px;
+    height: 100px;
+    background: #FF900E;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
 }
