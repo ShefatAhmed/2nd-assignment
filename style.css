@@ -237,7 +237,7 @@ nav li {
         flex-direction: column-reverse;
     }
     .facts{
-        margin-left: 20px;
+        text-align: center;
     }
     .achieve{
         flex-direction: column;
@@ -262,10 +262,10 @@ nav li {
         margin-left: 24px;
     }
     .experience-container{
-        margin-left: -12px;
+        margin-left: 80px;
     }
     .btn-last-content{
-        left: 33%;
+        left: 40%;
         top: 350px;
     }
     .btn-3rd{
